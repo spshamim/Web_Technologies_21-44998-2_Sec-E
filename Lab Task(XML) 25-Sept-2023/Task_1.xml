@@ -1,0 +1,23 @@
+<devices>
+    <unit sr="1">
+        <id> 11 </id>
+        <name> Samsung </name>
+        <unitPrice> 35000 </unitPrice>
+        <stock> 50 </stock>
+        <status> 1 </status>
+    </unit>
+    <unit sr="2">
+        <id> 11 </id>
+        <name> Samsung </name>
+        <unitPrice> 35000 </unitPrice>
+        <stock> 50 </stock>
+        <status> 1 </status>
+    </unit>
+    <unit sr="3">
+        <id> 11 </id>
+        <name> Samsung </name>
+        <unitPrice> 35000 </unitPrice>
+        <stock> 50 </stock>
+        <status> 1 </status>
+    </unit>
+</devices>

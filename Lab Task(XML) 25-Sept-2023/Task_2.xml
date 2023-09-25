@@ -1,0 +1,29 @@
+<admissionInfo>
+    <candidate sr="1">
+        <slNo> 23 </slNo>
+        <name> John Carter </name>
+        <dateOfAdmission>
+            <day> 25 </day>
+            <month> 12 </month>
+            <year> 2015 </year>
+        </dateOfAdmission>
+    </candidate>
+    <candidate sr="2">
+        <slNo> 29 </slNo>
+        <name> Bob Marshal </name>
+        <dateOfAdmission>
+            <day> 13 </day>
+            <month> 01 </month>
+            <year> 1999 </year>
+        </dateOfAdmission>
+    </candidate>
+    <candidate sr="3">
+        <slNo> 35 </slNo>
+        <name> Clark Kent </name>
+        <dateOfAdmission>
+            <day> 17 </day>
+            <month> 06 </month>
+            <year> 2005 </year>
+        </dateOfAdmission>
+    </candidate>
+</admissionInfo>
