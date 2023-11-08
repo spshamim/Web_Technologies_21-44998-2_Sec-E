@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Name</title>
+</head>
+<body>
+    Name<br>
+    <input type="text" name="name" id="name"><hr>
+    <input type="submit" value="Submit" onclick="check()">
+
+    <script>
+        function check(){
+            let value = document.getElementById('name').value;
+            let words = value.split(/\s+/); // split by space
+            let firstChar = value[0];
+
+            function containsOnlyValidCharacters(name) {
+                for (let i = 0; i < name.length; i++) {
+                    let char = name[i];
+                    // Skip spaces
+                    if (char === ' ') {
+                        continue;
+                    }
+                    if (!((char >= 'A' && char <= 'Z') || (char >= 'a' && char <= 'z') || char === '.' || char === '-')) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+
+            if(value==""){
+                alert("Name can't be empty..!");
+                return;
+            }
+            if(words.length<2){
+                alert("Name must contain at least two words..!");
+                return;
+            }
+            if(!((firstChar >= 'A' && firstChar <= 'Z') || (firstChar >= 'a' && firstChar <= 'z'))){
+                alert("Name must start with a letter..!");
+                return;
+            }
+            if(!containsOnlyValidCharacters(value)){
+                alert("Name has not allowed characters..!");
+                return;
+            }
+
+            alert("ALL conditions are fulfilled.");
+        }
+    </script>
+</body>
+</html>

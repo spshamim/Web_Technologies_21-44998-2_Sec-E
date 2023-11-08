@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Gender</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" id="male" value="Male">Male
+        <input type="radio" name="gender" id="female" value="Female">Female
+        <input type="radio" name="gender" id="other" value="Other">Other<hr>
+        <input type="submit" value="Submit" onclick="check()">
+    </fieldset>
+
+    <script>
+        function check() {
+            let genderRadios = document.getElementsByName("gender");
+            let selected = false;
+
+            for (let i = 0; i < genderRadios.length; i++) {
+                if (genderRadios[i].checked) {
+                    selected = true;
+                    break;
+                }
+            }
+
+            if (!selected) {
+                alert("Please select a gender.");
+                return;
+            }
+
+            alert("ALL conditions are fulfilled.");
+        }
+    </script>
+</body>
+</html>

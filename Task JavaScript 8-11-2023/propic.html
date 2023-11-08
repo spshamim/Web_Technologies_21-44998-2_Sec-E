@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Profile Picture</title>
+</head>
+<body>
+        <fieldset>
+            <legend>Profile Picture</legend>
+            User ID : <input type="text" name="id" id="id"><br><br>
+            Picture : <input type="file" name="file" id="file"><br><br>
+            <input type="submit" value="Submit" onclick="check()">
+        </fieldset>
+
+        <script>
+            function check(){
+                let idField = document.getElementById("id").value;
+                let fileField = document.getElementById("file");
+                let userId = parseInt(idField);
+
+                // Checking if ID is a positive number
+                if (isNaN(userId) || userId <= 0) {
+                    alert("Please enter a positive number for User ID.");
+                    return;
+                }
+
+                // Checking if a file is chosen
+                if (fileField.files.length === 0) {
+                    alert("Please choose a file for the Picture.");
+                    return;
+                }
+
+                alert("ALL conditions are fulfilled.");
+            }
+        </script>
+</body>
+</html>

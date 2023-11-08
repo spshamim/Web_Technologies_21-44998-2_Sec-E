@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Email</title>
+</head>
+<body>
+    Email<br>
+    <input type="text" name="name" id="name"><hr>
+    <input type="submit" value="Submit" onclick="check()">
+
+
+    <script>
+        function check(){
+            let value = document.getElementById('name').value;
+            
+            function checkatsign(name) {
+                for (let i = 0; i < name.length; i++) {
+                    let char = name[i];
+                    if (!(char === '@')) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            
+            if(value==""){
+                alert("Email can't be empty..!");
+                return;
+            }
+            if(!checkatsign(value)){
+                alert("Email format is not valid..!");
+                return;
+            }
+
+            alert("ALL conditions are fulfilled.");
+        }
+    </script>
+</body>
+</html>
