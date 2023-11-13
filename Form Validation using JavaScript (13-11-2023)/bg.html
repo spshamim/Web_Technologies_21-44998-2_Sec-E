@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Blood Group</title>
+</head>
+<body>
+    <form action="test.php" method="post" onsubmit="return validateForm()">
+        <fieldset>
+            <legend>Blood Group</legend>
+            <select name="bg" id="bg">
+                <option value="">Select Blood Group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select><hr>
+            <input type="submit" value="Submit">    
+        </fieldset>
+    </form>
+
+    <script>
+        function validateForm() {
+            let selectElement = document.getElementById("bg");
+            let selectedIndex = selectElement.selectedIndex;
+
+            if (selectedIndex === 0) {
+                alert("Please select a blood group.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Degree</title>
+</head>
+<body>
+    <form action="test.php" method="post" onsubmit="return validateForm()">
+        <fieldset>
+            <legend>Degree</legend>
+            <input type="checkbox" name="dg" id="SSC" value="SSC">SSC
+            <input type="checkbox" name="dg" id="HSC" value="HSC">HSC
+            <input type="checkbox" name="dg" id="BSc" value="BSc">BSc
+            <input type="checkbox" name="dg" id="MSc" value="MSc">MSc<hr>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+        <script>
+            function validateForm() {
+                let checkboxes = document.getElementsByName("dg");
+                let checked = false;
+
+                for (let i = 0; i < checkboxes.length; i++) {
+                    if (checkboxes[i].checked) {
+                        checked = true;
+                        break;
+                    }
+                }
+
+                if (!checked) {
+                    alert("Please select at least one degree option.");
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
+</body>
+</html>
