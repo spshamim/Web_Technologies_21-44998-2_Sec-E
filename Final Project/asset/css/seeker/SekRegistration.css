@@ -1,0 +1,46 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+div.main-content {
+    background-color: #e6e6e6; 
+    margin-top: 40px; 
+    margin-left: 250px; 
+    padding: 50px; 
+    width: 950px; 
+    height: 400px;
+    border-radius: 10px;
+}
+
+.label-st{
+    font-size: 25px; 
+    font-weight:bold; 
+    color:green;
+}
+
+.form-table {
+    font-size: 20px;
+}
+
+.form-input {
+    font-size: 16px;
+    height: 30px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.error-td {
+    font-size: 15px; color: red;
+}

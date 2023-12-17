@@ -1,0 +1,30 @@
+#d1{
+    display: flex; position:relative; left:450px; bottom:330px;
+}
+#l1{
+    margin-left:20px; color:red; font-weight:bold;
+}
+#l2{
+    margin-left:150px; color:red; font-weight:bold;
+}
+#l3{
+    margin-left:100px; color:red; font-weight:bold;
+}
+#l4{
+    margin-left:150px; color:red; font-weight:bold;
+}
+#d2{
+    background: #39A7FF; margin-top: 65px; margin-left: 05px; width: 600px; height: 230px;
+}
+#d3{
+    margin-top: 20px; margin-left: 20px;
+}
+#sub1{
+    border:3px solid black ;background-color: greenyellow; color: black; font-size: 16px; text-decoration: none; padding: 10px 20px; border-radius: 5px;; font-weight:bold; cursor: pointer;
+}
+#inp{
+    height:35px; border:2px solid black; border-radius:10px; width:350px;
+}
+#f01{
+    font-size: 15px;
+}

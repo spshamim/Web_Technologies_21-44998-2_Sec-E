@@ -1,0 +1,50 @@
+label{
+    font-size: 20;
+}
+input{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#t1{
+    padding: 125px; 
+    color: black; 
+    font-family: Verdana;
+}
+body{
+    color: black;
+    font-family: Verdana;
+}
+#d1{
+    background-color: #e6e6e6; 
+    padding: 50px; 
+    color:black; 
+    max-width: 750px; 
+    padding-left: 100px; 
+    padding-right: 100px; 
+    box-shadow: 11px 11px 22px rgba(0, 0, 0, 0.5);
+}
+#l1{
+    font-size: 25px; 
+    font-weight:bold; 
+    color:green;
+}
+.ff{
+    font-size: 20px;
+    background-color: green; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-right:300px;
+}
+
+#td001{
+    font-size: 15px; 
+    color: red;
+}
+
+#i1{
+    font-size:20px; 
+    flex: 1;
+}

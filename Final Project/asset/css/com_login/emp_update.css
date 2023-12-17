@@ -1,0 +1,76 @@
+input{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.styled{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 35px;
+    font-size: 20px;
+}
+.styled3{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 35px;
+}
+.styled2{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 35px;
+}
+body{
+    color: black; font-family: Verdana;
+}
+#tt1{
+    padding:3px ;color: black; font-family: Verdana;
+}
+#dd1{
+    background-color: #e6e6e6;padding:30px;padding-left:100px;padding-right:100px; color:black; max-width: 750px; margin-left:200px;
+}
+#ll1{
+    font-size: 25px;color:green;font-weight:bold;
+}
+#dd2{
+    background-color: white ; height: 350px; width: 350px; position: absolute; top: 200px;
+}
+#errorList{
+    height: 100%;
+}
+#ll0{
+    color:black; font-size: 20;
+}
+
+#title,#location,#exp,#vacancy,#salary,#desc,#category{
+    font-size:20px; flex: 1;
+}
+
+#fl01{
+    display: flex;
+}
+
+#type{
+    width:20px; height:20px; vertical-align: text-bottom;
+}
+#sl1{
+    font-size:20px;
+}

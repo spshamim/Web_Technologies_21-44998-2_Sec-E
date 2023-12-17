@@ -1,0 +1,24 @@
+#d1{
+    display: flex; position:relative;left:450px;bottom:330px;
+}
+#d2{
+    background: #39A7FF; margin-top: 57px; margin-left: 05px; width: 600px; height: 300px;
+}
+#d3{
+    margin-top: 20px; margin-left: 60px;
+}
+#ll{
+    margin-left:20px; color:red; font-weight:bold;
+}
+#up{
+    border:3px solid black ;background-color: greenyellow; color: black; font-size: 16px; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-weight:bold; cursor: pointer;
+}
+#del{
+    border:3px solid black ;background-color: #FF2400; color: white; font-size: 16px; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-weight:bold; cursor: pointer;margin-left:10px;
+}
+#td003{
+    font-size: 15px;
+}
+#pic2{
+    height: 100px; width:120px;
+}

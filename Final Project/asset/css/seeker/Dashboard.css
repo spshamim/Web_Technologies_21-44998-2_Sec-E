@@ -1,0 +1,29 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+.dashboard-container {
+    background-color: lightsteelblue;
+    margin-top: 60px;
+    margin-left: 160px;
+    padding: 5px;
+    width: 200px;
+    height: 510px;
+    border-radius: 10px;
+}
+
+.dashboard-item {
+    padding: 10px;
+    margin: 2px;
+    text-align: left;
+    background-color: white;
+    border: 3px solid #4863A0;
+    border-radius: 5px;
+}
+
+.dashboard-item a {
+    text-decoration: none;
+    color: black;
+}

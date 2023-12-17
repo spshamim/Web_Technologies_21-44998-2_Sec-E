@@ -1,0 +1,40 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+div.main-content {
+    background-color: lightsteelblue;
+    margin-top: 60px;
+    margin-left: 05px;
+    margin-right: 200px;
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+    
+}
+
+.table-st{
+    width: 900px; 
+    margin: 0; 
+    padding: 0;
+}
+
+.tr-head{
+    background-color: darkcyan;
+}
+
+.head-td{
+    color:white; 
+    text-align: center; 
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+
+.td-value{
+    color:black; 
+    text-align: center; 
+    padding: 10px 20px; 
+    border-radius: 10px;
+}

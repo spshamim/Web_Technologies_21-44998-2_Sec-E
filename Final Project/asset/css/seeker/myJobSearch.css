@@ -1,0 +1,41 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+div.main-content {
+    background-color: lightsteelblue;
+    margin-top: 60px;
+    margin-left: 05px;
+    width: 1200px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+table legend {
+    background-color: darkcyan;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.select-itm{
+    font-size:16px; 
+    padding: 5px 20px; 
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.submit-btn{
+    background-color:green; 
+    color: white; 
+    font-size: 20px; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    text-align:center; 
+    cursor:pointer;
+}

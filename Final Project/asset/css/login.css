@@ -1,0 +1,30 @@
+bodu{
+    color: black; font-family: Verdana;
+}
+#tt1{
+    padding: 125px; color: black; font-family: Verdana;
+}
+#ttt1{
+    color: red;
+}
+#dd1{
+    margin-left:200px;background-color: #e6e6e6; padding: 50px; color:black; max-width: 750px; padding-left: 100px; padding-right: 100px; box-shadow: 11px 11px 22px rgba(0, 0, 0, 0.5);
+}
+#ll1{
+    font-size: 25px; font-weight:bold; color:green;
+}
+#ff1{
+    text-decoration:none;font-size: 20px; color: blue;font-weight:bold; cursor: pointer; margin-right:30px;
+}
+.login{
+    font-size: 20px; background-color: green; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;
+}
+#dd2{
+    background-color: white ; height: 300px; width: 350px; position: absolute; top: 300px;
+}
+#errorList{
+    height: 100%;
+}
+#uname,#pass{
+    font-size:20px; flex: 1;
+}

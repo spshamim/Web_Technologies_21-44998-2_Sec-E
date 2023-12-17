@@ -1,0 +1,44 @@
+.styled-link {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.styled-link2 {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left:83px;
+}
+.styled-button {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 35px;
+    padding: 5px;
+}
+#tt1{
+    padding: 50px;  font-family: Verdana;
+}
+#dd1{
+    background-color: #e6e6e6; padding: 50px;
+}
+#tt2{
+    text-align: center;
+}
+#td001{
+    font-size: 35px; font-weight: bold; color: #FF0000; text-align: center; padding-left:180px; padding-bottom:5px;
+}

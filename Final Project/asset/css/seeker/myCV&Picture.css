@@ -1,0 +1,44 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+div.main-content {
+    background-color: lightsteelblue;
+    margin-top: 60px;
+    margin-left: 05px;
+    margin-right: 200px;
+    width: 600px;
+    height: 700px;
+    border-radius: 10px;
+    
+}
+
+.sub-content{
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+
+.img{
+    max-width: 160px; 
+    max-height: 160px;
+}
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.error-td {
+    font-size: 15px; color: red;
+}
+
+.success-td {
+    font-size: 18px; color: green;
+}

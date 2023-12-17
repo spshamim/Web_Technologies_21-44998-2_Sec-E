@@ -1,0 +1,40 @@
+.styled{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 35px;
+    font-size: 20px;
+    margin-left:60px;
+}
+body{
+    color: black; font-family: Verdana;
+}
+#tt1{
+    padding: 5px; color: black; font-family: Verdana;
+}
+#dd1{
+    background-color: #EBE3D5; padding: 50px; color:black;
+}
+#title{
+    font-size:20px; width: 400px;
+}
+#comp_name{
+    font-size:20px;
+}
+#category,#type,#salary,#experience,#location{
+    font-size:20px;
+}
+#error-container{
+    width: 1200px; height: 200px; overflow-y: auto;
+}
+#rr002{
+    padding-top: 15px;
+}
+#cc2{
+    font-size: 16px;
+}

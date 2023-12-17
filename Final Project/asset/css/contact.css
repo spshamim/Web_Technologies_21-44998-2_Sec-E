@@ -1,0 +1,12 @@
+body{
+    color: black; font-family: Verdana;
+}
+#tt1{
+    padding: 70px; color: black; font-family: Verdana;
+}
+#dd1{
+    background-color: #e6e6e6; padding: 50px; color:black; max-width: 500px; text-align: justify;box-shadow: 11px 11px 22px rgba(0, 0, 0, 0.5);
+}
+#hh1{
+    font-size: 25px; font-weight:bold; color:green; text-align:center;
+}

@@ -1,0 +1,69 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+div.main-content {
+    background-color: lightsteelblue;
+    margin-top: 60px;
+    margin-left: 05px;
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.table-st {
+    width: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+div.th-content {
+    background-color: darkcyan;
+    width: 900px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.head-td {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.td-value {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+/* Additional styling for better alignment */
+.table-st tr {
+    display: flex;
+}
+
+.table-st td {
+    flex: 1;
+}
+
+.td-value2 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.accepted {
+    background-color: lightgreen; /* Change the background color for accepted status */
+}
+
+.not-accepted {
+    background-color: lightcoral; /* Change the background color for not accepted status */
+    color: white; /* Change the text color for not accepted status */
+}
+

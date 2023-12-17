@@ -1,0 +1,10 @@
+.d1{
+    background-color:greenyellow;
+    height: 580px;
+    width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    left:400px;
+}

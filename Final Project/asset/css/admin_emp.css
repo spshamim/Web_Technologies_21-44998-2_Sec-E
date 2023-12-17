@@ -1,0 +1,26 @@
+.styled{
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 35px;
+}
+#tt1{
+    padding: 50px; font-family: Verdana;
+}
+#d1{
+    background-color: #e6e6e6; padding: 50px;
+}
+#t1{
+    text-align: center;
+}
+#td11{
+    font-size: 35px; font-weight: bold; color: #FF0000; text-align: center; padding-left:130px; padding-bottom:5px;
+}
+#td2{
+    vertical-align: top;
+}

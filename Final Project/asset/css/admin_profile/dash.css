@@ -1,0 +1,12 @@
+body{
+    color: black; font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#lli{
+    padding: 10px; margin: 2px; text-align: left; background-color: #90EE90;border:2px solid black; border-radius:5px; width:180px;
+}
+#a_link{
+    text-decoration: none; color: black;
+}
+#ull{
+    list-style-type: none; margin-top: 205px; margin-left: 100px;
+}

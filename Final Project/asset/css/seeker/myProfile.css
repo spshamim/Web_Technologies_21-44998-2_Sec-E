@@ -1,0 +1,59 @@
+div.container {
+    background-color: lightsteelblue;
+    margin-top: 60px;
+    margin-left: 05px;
+    margin-right: 200px;
+    width: 900px;
+    height: 980px;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+label.heading {
+    font-size: 25px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td.label {
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    font-size: 16px;
+    height: 30px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    font-size: 16px;
+    max-height: 200px;
+    max-width: 590px;
+    min-width: 590px;
+    width: 590px;
+    height: 100px;
+    resize: both;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
